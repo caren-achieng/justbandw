@@ -277,7 +277,7 @@
 			 Contribute
 		</h2>
 
-		<p>CodeIgniter is a community driven project and accepts contributions
+		<p>CodeIgniteeeeeeeerrrrrrrr is a community driven project and accepts contributions
 			 of code and documentation from the community. Why not
 			 <a href="https://codeigniter.com/en/contribute" target="_blank">
 			 join us</a> ?</p>
