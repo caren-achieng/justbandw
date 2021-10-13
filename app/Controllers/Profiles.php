@@ -3,7 +3,6 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 
-
 class Profiles extends Controller
 {
     public function index()

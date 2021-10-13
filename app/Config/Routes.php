@@ -33,12 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 // custom routes
-$routes->get('/', 'Users::index');
-$routes->get('/register', 'Users::index');
 $routes->get('/login', 'LogIn::index');
-$routes->get('/index', 'Profiles::index',['filter' => 'authGuard']);
-
-
+$routes->get('/register', 'Users::index');
+$routes->post('/register','Users::store');
+$routes->post('/login','LogIn::loginAuth');
+$routes->get('/index', 'Home::index');
+$routes->get('/', 'Profiles::index',['filter' => 'authGuard']);
 
 /*
  * --------------------------------------------------------------------

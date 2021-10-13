@@ -29,7 +29,7 @@ class LogIn extends Controller
             if($authenticatePassword){
                 $ses_data = [
                     'id' => $data['userid'],
-                    'name' => $data['name'],
+                    'name' => $data['firstname'],
                     'email' => $data['email'],
                     'isLoggedIn' => TRUE
                 ];

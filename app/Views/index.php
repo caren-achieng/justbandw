@@ -7,7 +7,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> JUST | B&W</title>
-    <link rel="stylesheet" href="assets/css/style.css?dt=<%= DateTime.Now.Ticks %>">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                 <a href="" class="btn">EXPLORE NOW &#8594;</a>
             </div>
             <div class="col-2">
-                <img src="assets/images/dd.png" alt="classy-woman-in-hat">
+                <img src="/assets/images/dd.png" alt="classy-woman-in-hat">
             </div>
         </div>
     </div>
@@ -34,16 +34,16 @@
     <div class="small-container">
         <div class="row">
             <div class="col-4">
-                <img src="assets/images/women-featured.jpg" alt="woman">
+                <img src="/assets/images/women-featured.jpg" alt="woman">
             </div>
             <div class="col-4">
-                <img src="assets/images/men-featured.jpg" alt="man">
+                <img src="/assets/images/men-featured.jpg" alt="man">
             </div>
             <div class="col-4">
-                <img src="assets/images/child-featured.jpg" alt="child">
+                <img src="/assets/images/child-featured.jpg" alt="child">
             </div>
             <div class="col-4">
-                <img src="assets/images/pets-featured.jpg" alt="dog-in-jacket">
+                <img src="/assets/images/pets-featured.jpg" alt="dog-in-jacket">
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
     <h2 class="title">FORMAL x WEAR</h2>
     <div class="row">
         <div class="col-3">
-            <img src="assets/images/men formal.jpg" alt="men's formal wear">
+            <img src="/assets/images/men formal.jpg" alt="men's formal wear">
             <h4>Black Suspenders</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -66,7 +66,7 @@
             <p>Ksh.5000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/women formal wear.jpg" alt="women's formal wear">
+            <img src="/assets/images/women formal wear.jpg" alt="women's formal wear">
             <h4>White Blazer</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -78,7 +78,7 @@
             <p>Ksh.3000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/children formal.jpg" alt="children's formal wear">
+            <img src="/assets/images/children formal.jpg" alt="children's formal wear">
             <h4>Kids' Tuxedo</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -94,7 +94,7 @@
     <h2 class="title">CASUAL x WEAR</h2>
     <div class="row">
         <div class="col-3">
-            <img src="assets/images/men casual.jpg" alt="men's casual wear">
+            <img src="/assets/images/men casual.jpg" alt="men's casual wear">
             <h4>Classic White Tee</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -106,7 +106,7 @@
             <p>Ksh.3000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/women casual.jpg" alt="women's casual wear">
+            <img src="/assets/images/women casual.jpg" alt="women's casual wear">
             <h4>Oversized sweater</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -118,7 +118,7 @@
             <p>Ksh.3500</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/children casual.jpg" alt="kid's casual wear">
+            <img src="/assets/images/children casual.jpg" alt="kid's casual wear">
             <h4>Kids' matching sweat pants</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -134,7 +134,7 @@
     <h2 class="title">SPORTS x WEAR</h2>
     <div class="row">
         <div class="col-3">
-            <img src="assets/images/men sports.jpg" alt="men's sports wear">
+            <img src="/assets/images/men sports.jpg" alt="men's sports wear">
             <h4>Sports shoes</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -146,7 +146,7 @@
             <p>Ksh.5000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/women sports.jpg" alt="women's sports wear">
+            <img src="/assets/images/women sports.jpg" alt="women's sports wear">
             <h4>Bra and tights set</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -158,7 +158,7 @@
             <p>Ksh.4000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/children sports.jpg" alt="children's sports wear">
+            <img src="/assets/images/children sports.jpg" alt="children's sports wear">
             <h4>Girls Leotard</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -174,7 +174,7 @@
     <h2 class="title">PETS</h2>
     <div class="row">
         <div class="col-3">
-            <img src="assets/images/dog.jpg" alt="dog">
+            <img src="/assets/images/dog.jpg" alt="dog">
             <h4>Poodle</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -186,7 +186,7 @@
             <p>Ksh.50,000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/dog 1.jpg" alt="dog">
+            <img src="/assets/images/dog 1.jpg" alt="dog">
             <h4>Beagle</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>
@@ -198,7 +198,7 @@
             <p>Ksh.70,000</p>
         </div>
         <div class="col-3">
-            <img src="assets/images/cat.jpg" alt="cat">
+            <img src="/assets/images/cat.jpg" alt="cat">
             <h4>Cheshire</h4>
             <div class="rating">
                 <i class="fas fa-star"></i>

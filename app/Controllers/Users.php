@@ -7,15 +7,10 @@ class Users extends BaseController
 {
     public function index()
     {
-        helper(['form']);
-        $data = [];
-        echo view('login', $data);
+        return view('register');
     }
-
     public function store()
     {
-        helper(['form']);
-
         $rules = [
             'firstname' => 'required|min_length[3]|max_length[20]',
             'lastname' => 'required|min_length[3]|max_length[20]',
@@ -45,8 +40,7 @@ class Users extends BaseController
         }
         else
         {
-            $data['validation'] = $this->validator;
-            echo view('register', $data);
+            return redirect()->back()->withInput()->with('errors',$this->validator->getErrors());
         }
     }
 }
