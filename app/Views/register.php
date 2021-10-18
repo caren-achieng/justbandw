@@ -105,6 +105,7 @@
                     maxlength:255
                 },
                 confirmpass: {
+                    required: true,
                     equalTo: 'password'
                 },
                 gender: {
@@ -134,6 +135,7 @@
                     maxlength:"Maximum length 255 characters"
                 },
                 confirmpass: {
+                    required: "Confirm password field is required",
                     equalTo: "Passwords do not match"
                 },
                 gender: {
